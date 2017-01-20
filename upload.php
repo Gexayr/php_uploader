@@ -32,7 +32,6 @@ $username = "root";
 $password = "";
 $dbname = "myDataBase";
 
-// Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
